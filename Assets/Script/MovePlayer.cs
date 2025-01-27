@@ -43,6 +43,5 @@ public class MovePlayer : MonoBehaviour
 
         // Двигаем персонажа
         characterController.Move(velocity * MoveSpeed * Time.deltaTime);
-
     }
 }
